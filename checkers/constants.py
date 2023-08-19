@@ -1,0 +1,21 @@
+import pygame
+
+#WIDTH AND HEIGHT ARE BOTH INITALIZED AT 800 PIXELS 
+WIDTH, HEIGHT = 800, 800 
+
+#INITIALIZING THE NUMBER OF ROWS AND COLUMSN IN OUR CHECKERS BOARD, 8 X 8 IS STANDARD
+ROWS, COLUMNS = 8, 8 
+
+#THE SIZE OF EACH BOX ON THE BOARD
+BOXSIZE = WIDTH/COLUMNS
+
+#RGB GAMEBOARD COLORS
+BROWN = (222,184,135)
+WHITE = (255, 255, 255)
+BLACK = (0,0,0)
+MAROON = (128,0,0) 
+CHOCO = (210,105,30)
+RED = (255,0,0)
+
+CROWN = pygame.transform.scale(pygame.image.load('assets/crown.webp'), (44, 25))
+MAINMENU = pygame.transform.scale(pygame.image.load('assets/checkersMenu2.jpg'), (WIDTH, HEIGHT))
